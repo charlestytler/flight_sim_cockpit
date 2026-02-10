@@ -7,6 +7,11 @@ Repository for Arduino software for flight simulation panels that provide input/
 ![Physical Cockpit](./images/physical_cockpit.jpg)
 (Partially) assembled cockpit.
 
+### CAD Models
+
+![CAD Model Rendering of Physical Cockpit](./images/Physical_cockpit_CAD_Model_render.png)
+[Link to Fusion 360 Web Viewer](https://a360.co/4bIpcXp)
+
 ### PCBs
 
 Current version of PCBs using:
