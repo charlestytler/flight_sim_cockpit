@@ -29,7 +29,7 @@ upload: check-port compile
 		.
 
 BAUD_RATE = 9600
-monitor:
+monitor: check-port
 	arduino-cli.exe monitor -p $(PORT) --config $(BAUD_RATE)
 
 clean:

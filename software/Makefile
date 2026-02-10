@@ -20,6 +20,10 @@ $(SKETCHES):
 %-upload:
 	$(MAKE) -C sketches/$* upload
 
+BAUD_RATE = 115200
+monitor:
+	arduino-cli.exe monitor -p $(PORT) --config $(BAUD_RATE)
+
 gen-compile-commands:
 	@echo "Generating compilation database for $(SKETCH)..."
 	arduino-cli compile --fqbn $(FQBN) \
